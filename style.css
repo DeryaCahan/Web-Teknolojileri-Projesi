@@ -1,0 +1,50 @@
+#header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkgrey;
+    text-align: left;
+    color: black;
+}
+
+.container{
+    background-color: darkgrey;
+  
+}
+
+ 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: darkgrey;
+}
+ 
+li {
+    float: right;
+}
+ 
+li a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+ 
+footer {
+    background-color:DarkSeaGreen;
+    color:white;
+    text-align:center;
+    clear:both;
+    padding:5px;	 	 
+}
+
+.row{
+    background-color: darkgray;
+}
