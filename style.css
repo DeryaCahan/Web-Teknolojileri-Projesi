@@ -1,50 +1,60 @@
-#header{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: darkgrey;
-    text-align: left;
-    color: black;
-}
-
-.container{
-    background-color: darkgrey;
-  
-}
-
- 
-ul {
-    list-style-type: none;
+.header {
     overflow: hidden;
-    padding: 0;
-    margin: 0;
-    background-color: darkgrey;
+    background-color: #e0dddd;
+    padding: 20px 10px;
+  }
+.logo{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
- 
-li {
-    float: right;
-}
- 
-li a {
+
+  .header a {
+    float: left;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
     text-align: center;
-    padding: 10px 10px;
+    padding: 12px;
     text-decoration: none;
-}
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
 
-
-
-
-
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+   
+  }
+  
+  .header a:hover {
  
-footer {
-    background-color:DarkSeaGreen;
-    color:white;
-    text-align:center;
-    clear:both;
-    padding:5px;	 	 
-}
+    color: green;
+  }
+  
+  .header a.active {
+    color: black;
+    
+  }
+  
+  .header-right {
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-right: 1px solid #660066;
+    border-left: 1px solid #660066;
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+      
+    }
+    
+    .header-right {
+      float: none;
+   
+     
+    }
+  }
 
-.row{
-    background-color: darkgray;
-}
+
